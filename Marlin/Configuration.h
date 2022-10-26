@@ -658,9 +658,9 @@
     #define DEFAULT_Ki_LIST {   1.08,   1.08 }
     #define DEFAULT_Kd_LIST { 114.00, 114.00 }
   #else
-    #define DEFAULT_Kp  19.11
-    #define DEFAULT_Ki   1.12
-    #define DEFAULT_Kd 81.18
+    #define DEFAULT_Kp  21.85
+    #define DEFAULT_Ki   1.42
+    #define DEFAULT_Kd  83.90  
   #endif
 #endif
 
@@ -743,9 +743,9 @@
 
   // 120V 250W silicone heater into 4mm borosilicate (MendelMax 1.5+)
   // from FOPDT model - kp=.39 Tp=405 Tdead=66, Tc set to 79.2, aggressive factor of .15 (vs .1, 1, 10)
-  #define DEFAULT_bedKp 40.18
-  #define DEFAULT_bedKi 6.77
-  #define DEFAULT_bedKd 158.91
+  #define DEFAULT_bedKp 38.76
+  #define DEFAULT_bedKi 4.29
+  #define DEFAULT_bedKd 233.59
 
   // FIND YOUR OWN: "M303 E-1 C8 S90" to run autotune on the bed at 90 degreesC for 8 cycles.
 #endif // PIDTEMPBED
